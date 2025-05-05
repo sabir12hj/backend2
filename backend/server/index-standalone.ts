@@ -7,7 +7,7 @@ const app = express();
 // Enable CORS for all routes
 app.use(cors({
   origin: process.env.NODE_ENV === "production"
-    ? ["https://your-frontend-domain.com"] // Update with your actual frontend domain in production
+    ? ["https://frontend2-b7sg.onrender.com"] // Update with your actual frontend domain in production
     : ["http://localhost:3000"],
   credentials: true
 }));
